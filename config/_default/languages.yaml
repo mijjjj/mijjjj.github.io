@@ -3,8 +3,8 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  languageCode: en-us
+# en:
+#   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
@@ -17,6 +17,6 @@ zh:
    description: 方江琛个人主页
  menu:
    main:
-     - name: 传
-       url: '#about'
+     - name: 主页
+       url: '/'
        weight: 1

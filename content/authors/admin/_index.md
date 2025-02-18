@@ -32,17 +32,16 @@ bio: 主要研究方向是物联网相关的基础平台、数采网关平台等
 profiles:
   - icon: at-symbol
     url: 'mailto:admin@liseoffo.cn'
-    label: E-mail Me
+    label: 发邮件给我
+    
   - icon: brands/github
     url: https://github.com/mijjjj/
+    label: 访问我的github主页
 
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+    label: 下载我的简历
+
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
