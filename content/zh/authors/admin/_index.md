@@ -3,7 +3,7 @@
 title: 方江琛
 
 # Name pronunciation (optional)
-name_pronunciation: Fang JiangChen
+# name_pronunciation: Fang Jiang Chen
 
 # Full name (for SEO)
 first_name: Jiangchen
@@ -47,7 +47,9 @@ profiles:
 highlight_name: true
 
 # Author's website URL
-website: "https://www.liseoffo.cn/"
+website: "https://blog.liseoffo.cn/"
 ---
 
-自由有激情的一名后端开发工程师。有8年多的产品项目研发经验，深耕于工业物联网各类业务。主要研发产品有Dcoll数采网关、Wlink物联网云平台，打通整条物联网数据链路
+自由富有激情的一名90后后端开发工程师。有8年多的产品项目研发经验，深耕于工业物联网各类业务。
+主要研发产品有Dcoll数采网关、Wlink物联网云平台等
+

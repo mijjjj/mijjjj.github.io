@@ -1,86 +1,64 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+title: 🎉 部署PVE服务器虚拟化管理软件
+summary: PVE软件（Proxmox Virtual Environment）是一款开源的虚拟化管理平台，主要用于创建和管理虚拟机（VM）及容器（LXC）
+date: 2025-02-10
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  # caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 authors:
   - admin
-  - Ted
+  - 不白炖
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - Proxmox VE
+  - 服务器运维
+  - 虚拟化
 ---
 
-Welcome 👋
+大家好，我是**不白炖**
 
-{{< toc mobile_only=true is_open=true >}}
+今天我要给大家介绍的是如何使用部署PVE服务器虚拟化管理软件
 
-## Overview
+## 背景：
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+家里最近装修完了，搞了条1000M的宽带，想着能不能搞点什么利用好这个宽带。刚好最近手机储存满了，突然想到为何不做一个NAS呢，经过几天的技术方案筛选，最后决定使用黑群晖作为NAS的管理系统，但是由于黑群晖的系统内核版本较低，所以我打算部署多个系统作为家用方案，所以这里用到了PVE来管理服务器
 
-[//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
 
-### Get Started
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+## 使用到的物料：
 
-## Crowd-funded open-source software
+### 硬件：
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+u盘一个、电脑或者服务器一个。我家里用的是汪汪队射手开源的QNSA方案，自己diy了一个6盘位的NAS，CPU采用N100，作为nas足够了，还能进行影片硬解码，播放蓝光影片没问题
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+### 软件：
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+pve安装镜像、Rufus USB启动盘制作工具
 
-## Ecosystem
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
 
-## Inspiration
+## 步骤：
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+1. 制作启动盘
 
-## Features
+在PVE官网下载好官方的安装镜像后打开Rufus软件，插入U盘，选择U盘，然后选择PVE的镜像，然后点击开始，等待制作完成即可，详情制作启动盘的文章可以参考如何使用Rufus制作启动盘
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
 
-## Themes
 
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
+2. 刷写入镜像
 
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
+将制作好的启动盘插入NAS的USB口内，插好鼠标和键盘，通电后按F12进入启动菜单键，选着你U盘相对应的名称，开始进入引导，等到一会即可进入安装界面，选择好地区，写入的硬盘，ip地址等信息，点击开始即可完成安装
 
-## License
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+3. 进入管理页面
+
+默认的管理页面是刚才安装界面设置的IP:8006，默认账号是root，默认密码也是root，输入后就能看到默认界面
+
+
+
+以上就是使用U盘安装PVE的教程了，后续我会出一期PVE的具体使用以及汉化，显卡直通等教程
+
