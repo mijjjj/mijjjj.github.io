@@ -9,7 +9,6 @@ image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 authors:
-  - admin
   - 不白炖
 
 tags:
