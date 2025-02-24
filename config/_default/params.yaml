@@ -55,6 +55,16 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
+    url: 'https://github.com/mijjjj/mijjjj.github.io/'
     content_dir: starters/blog/content
     branch: main
+  comment:
+    provider: 'giscus'
+    giscus:
+      repo: 'mijjjj/mijjjj.github.io'
+      repo_id: 'R_kgDON7bC9Q'
+      category: 'Announcements'
+      category_id: 'DIC_kwDON7bC9c4CnRLN'
+      theme: preferred_color_scheme
+      language_code: zh-CN
+      mapping: pathname

@@ -351,6 +351,7 @@
       "xl:space-x-8"
     ],
     "ids": [
+      "comments",
       "desktop-apps",
       "editor--terminal",
       "hide-button",
