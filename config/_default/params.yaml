@@ -56,7 +56,7 @@ features:
     enable: false
   repository:
     url: 'https://github.com/mijjjj/mijjjj.github.io/'
-    content_dir: starters/blog/content
+    content_dir: content/zh
     branch: main
   comment:
     provider: 'giscus'
