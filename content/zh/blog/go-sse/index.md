@@ -1,9 +1,7 @@
 ---
 title: 使用Go实现SSE服务端
 summary: 本文主要介绍如何在go语言上实现sse服务端，以及如何使用sse协议推送数据到客户端
-date: 2025-02-21
-image:
-    url: gopher.png
+date: 2025-04-02
 authors:
     - 不白炖
 tags:

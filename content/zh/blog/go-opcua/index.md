@@ -3,8 +3,6 @@ title: 用go语言实现OPC UA客户端
 summary: 本文主要介绍如何用go的opcua库实现OPC-UA客户端，以及如何连接到OPC UA服务器并读取、订阅数据
 date: 2025-02-21
 
-image:
-    url: gopher.png
 authors:
     - 不白炖
 
