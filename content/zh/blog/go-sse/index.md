@@ -1,5 +1,5 @@
 ---
-title: 用go语言实现OPC UA客户端
+title: 使用Go实现SSE服务端
 summary: 本文主要介绍如何在go语言上实现sse服务端，以及如何使用sse协议推送数据到客户端
 date: 2025-02-21
 image:
