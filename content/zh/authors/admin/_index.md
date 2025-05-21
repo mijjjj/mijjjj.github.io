@@ -31,7 +31,7 @@ bio: 主要研究方向是物联网相关的基础平台、数采网关平台等
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:admin@liseoffo.cn'
+    url: 'mailto:admin@gcoll.top'
     label: 发邮件给我
     
   - icon: brands/github
@@ -47,9 +47,24 @@ profiles:
 highlight_name: true
 
 # Author's website URL
-website: "https://blog.liseoffo.cn/"
+website: "https://blog.gcoll.top/"
 ---
 
-自由富有激情的一名**90后**后端开发工程师，公众号**代码炖蘑菇**作者。有8年多的产品项目研发经验，深耕于工业物联网各类业务。
+自由富有激情的一名**90后**后端开发工程师，公众号**代码炖蘑菇**作者。有<span id="yearsDifference">7</span>年多的产品项目研发经验，深耕于工业物联网各类业务。
 主要研发产品有**Dcoll**数采网关、**I-River**物联网云平台等
 
+
+<script>
+  // 目标日期（格式：YYYY-MM-DD）
+  const targetDate = new Date('2017-03-15');
+  const currentDate = new Date();
+
+  // 计算年份差异
+  const yearsDifference = currentDate.getFullYear() - targetDate.getFullYear();
+
+   console.log(yearsDifference)
+
+  // 显示年份差异
+  document.getElementById('yearsDifference').textContent = yearsDifference;
+ 
+</script>
